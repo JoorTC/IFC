@@ -1,0 +1,27 @@
+# outputs
+outputs/
+mtnn_outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# data (never commit patient data)
+*.csv
+*.xlsx
+*.xls
+*.pkl
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.spyproject
